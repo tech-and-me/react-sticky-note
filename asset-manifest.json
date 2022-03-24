@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-sticky-note/static/css/main.23048de6.css",
+    "main.css": "/react-sticky-note/static/css/main.ade8decc.css",
     "main.js": "/react-sticky-note/static/js/main.0bd447fc.js",
     "static/media/brick-wall.jpg": "/react-sticky-note/static/media/brick-wall.e3a3a52cfcc3ba477166.jpg",
     "static/media/post-it-note.png": "/react-sticky-note/static/media/post-it-note.bb24903ea64aa151612a.png",
     "index.html": "/react-sticky-note/index.html",
-    "main.23048de6.css.map": "/react-sticky-note/static/css/main.23048de6.css.map",
+    "main.ade8decc.css.map": "/react-sticky-note/static/css/main.ade8decc.css.map",
     "main.0bd447fc.js.map": "/react-sticky-note/static/js/main.0bd447fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.23048de6.css",
+    "static/css/main.ade8decc.css",
     "static/js/main.0bd447fc.js"
   ]
 }
