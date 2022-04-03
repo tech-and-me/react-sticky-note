@@ -8,7 +8,6 @@ const initialNoteState = {
   notes:[]
 };
 
-
 const notesReducer = (prevState, action) => {
   switch(action.type){
     case 'ADD_NOTE' : 

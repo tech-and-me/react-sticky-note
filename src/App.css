@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 1.1rem;
 }
 
 body {
-  margin: 0;  
+  margin: 0;
 }
 
 .app {
   padding: 50px;
   height: 100vh;
   background-image: url(./assets/brick-wall.jpg);
-  background-size: cover;   
+  background-size: cover;
 }
 
-h1 { 
+h1 {
   color: white;
   font-size: 3rem;
 }
@@ -28,66 +28,66 @@ span {
   font-size: 1.2rem;
   font-style: italic;
   height: 14px;
- }
- 
+}
 
- .note-form{
-   display: flex;
-   flex-direction: column;
-   width: 200px;
- }
+.note-form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
 
- .note-form textarea{
-   border: 1px solid lightgray;
-   min-width: 100%;
-   max-width: 100%;
-   height: 150px;
-   padding: 10px;
-   outline: none;
- }
+.note-form textarea {
+  border: 1px solid lightgray;
+  min-width: 100%;
+  max-width: 100%;
+  height: 150px;
+  padding: 10px;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
 
- button{
-   width: 100%;
-   background-color: #fff27f;
-   padding:10px;
-   border: none;
-   outline: none;
- }
+button {
+  width: 100%;
+  background-color: #fff27f;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
 
- button:hover{
-   background-color: rgb(71, 255, 240);
- }
+button:hover {
+  background-color: rgb(71, 255, 240);
+}
 
- .note{
-   position: absolute;
-   cursor: pointer;
-   background-image: url(./assets/post-it-note.png);
-   background-size: cover;
-   top:150px;
-   left:400px;
-   width: 300px;
-   height: 200px;
-   padding: 20px;
-   font-size: larger;
- }
+.note {
+  position: absolute;
+  cursor: pointer;
+  background-image: url(./assets/post-it-note.png);
+  background-size: cover;
+  top: 150px;
+  left: 400px;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+}
 
- .text{
-   /* font-family: Arial, Helvetica, sans-serif; */
-   height: 100%;
-   width: 100%;
-   white-space: pre-wrap;
-   /* overflow-y: scroll; */
-   font-size: larger;
- }
+.text {
+  height: 100%;
+  width: 100%;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
 
- .close{
-   width: 15px;
-   height: absolute;
-   position: absolute;
-   right: 15px;
-   transition: transform .3s ease;
- }
+.close {
+  width: 15px;
+  height: absolute;
+  position: absolute;
+  right: 15px;
+  transition: transform 0.3s ease;
+}
 
- .close:hover{
-   transform: scale(1.6);
- }
+.close:hover {
+  transform: scale(1.6);
+}
